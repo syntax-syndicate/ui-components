@@ -12,23 +12,19 @@ Open source collection of type-safe React components styled with Tailwind for bu
 
 ## Setup
 
-> Want to use a starter? Go here 🔗 [brijr/starter](https://github.com/brijr/starter)
+### Step 1: Create a Next.js application with shadcn/ui
 
-### Step 1: Create a Next.js application
-
-```
-npx create-next-app@latest my-app --typescript --tailwind --eslint
+```bash
+pnpx shadcn@latest init
 ```
 
-### Step 2: Install [craft-ds](https://github.com/brijr/craft) (this will also install shadcn/ui)
+This will also create a new Next.js application.
 
-```
-npx craft-ds@latest init
-```
+### Step 2: Copy the craft.tsx component
 
-- Add a `ThemeProvider` and `ModeToggle` (if you want dark mode) by following these steps: [Adding dark mode to your next app](https://ui.shadcn.com/docs/dark-mode/next)
+Copy the [craft.tsx](https://github.com/brijr/components/blob/main/components/craft.tsx) component into your project's `components` folder. This provides the layout utilities needed for the components.
 
-### Step 3: Copy and Paste components from the [website](htpps://components.work) into your component folder to get started!
+### Step 3: Copy and Paste components from the [website](https://components.work) into your component folder to get started!
 
 ## brijr/components in use
 
